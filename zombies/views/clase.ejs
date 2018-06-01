@@ -1,0 +1,55 @@
+<% include header%>
+    <style>
+        div.item {
+            position: relative;
+            width: 225px;
+            border: 1px solid #ee0202;
+            text-align: center;
+            border-radius: 4px;
+            padding-top: 50px;
+            display: inline-table;
+            margin-left: 6%;
+            color: #00b126;
+        }
+        
+        h2 {
+            color: #00b126;
+        }
+        
+        p {
+            font-size: 28px;
+        }
+        
+        div img {
+            width: 60%;
+        }
+        
+        body {
+            background: url("/recursos/fondo3.jpg");
+        }
+    </style>
+    <h2>
+        Clase de zombies
+    </h2>
+    <form method="post" role="from">
+        <div class="item">
+            <p><strong> Zombie Boomer </strong></p>
+            <img src="/recursos/zombie1.jpg" />
+
+        </div>
+        <div class="item">
+            <p><strong> Zombie Corredor </strong></p>
+            <img src="/recursos/zombie3.jpg" />
+        </div>
+        <div class="item">
+            <p><strong> Zombie Nemesis </strong></p>
+            <img src="/recursos/zombie2.jpg" />
+        </div>
+        <div class="item">
+            <p><strong> Zombie Cazador </strong></p>
+            <img src="/recursos/zombie4.jpg" />
+
+        </div>
+
+    </form>
+    <% include footer %>
